@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #101114;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9A96E;
+  border-radius: 4px;
+}
+
+.glass-panel {
+  background: rgba(24, 26, 31, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(201, 169, 110, 0.22);
+}
+
+.theme-gradient-text {
+  background: linear-gradient(135deg, #C9A96E, #DFC38B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
